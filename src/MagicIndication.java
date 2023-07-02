@@ -1,5 +1,5 @@
 public interface MagicIndication {
 
-    int magic(HeroBase target);
+    int magic();
 
 }

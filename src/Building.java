@@ -4,7 +4,7 @@ public class Building  extends  HeroBase implements  HealthIndication {
     }
 
     @Override
-    public int healing(Building target) {
+    public int healing() {
     int healthCount=this.health;
     return healthCount;
 

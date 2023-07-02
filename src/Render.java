@@ -14,7 +14,13 @@ public class Render {
 
     public void showIndicator(Object object) {
         if (object instanceof Building) {
-            System.out.println("Показетель:   " + ((Building) object).healing(object));
+            System.out.println("Показетель:   " + "1. Здоровье:  "+ ((Building) object).healing());
+        }
+        if (object instanceof NPC) {
+            System.out.println("Показетель:   "+ "1. Здоровье:  " + ((NPC) object).healing());
+        }
+        if (object instanceof Hero) {
+            System.out.println("Показетель:   "+ "1. Здоровье:  " + ((Hero) object).healing() + "___ 2. Магическая энергия:  "+ ((Hero) object).magic());
         }
 
 

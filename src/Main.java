@@ -22,6 +22,12 @@ public class Main {
 
         renderSystem.showIndicator(Dom);
 
+        renderSystem.showIndicator(neitralny);
+
+        renderSystem.showIndicator(Hero);
+
+
+
 
 
 

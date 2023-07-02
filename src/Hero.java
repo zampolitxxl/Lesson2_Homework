@@ -9,13 +9,13 @@ public class Hero extends  HeroBase implements  HealthIndication, MagicIndicatio
     }
 
     @Override
-    public int healing(HeroBase target) {
+    public int healing() {
         int healthCount = this.health;
         return healthCount;
     }
 
         @Override
-        public int magic (HeroBase target){
+        public int magic (){
             int magicCount = this.magic;
             return magicCount;
         }
